@@ -1,5 +1,5 @@
-import 'package:first_ecommerce/Components/my_button.dart';
-import 'package:first_ecommerce/Components/my_card_template.dart';
+import 'package:first_ecommerce/components/my_button.dart';
+import 'package:first_ecommerce/components/my_card_template.dart';
 import 'package:flutter/material.dart';
 
 class VerficationScreen extends StatefulWidget {

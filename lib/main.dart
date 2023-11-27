@@ -1,3 +1,4 @@
+import 'package:first_ecommerce/Screens/home_screen.dart';
 import 'package:first_ecommerce/Screens/sign_in_screen.dart';
 import 'package:first_ecommerce/Screens/sign_up_screen.dart';
 import 'package:first_ecommerce/Screens/verification_screen.dart';
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: SignInScreen(),
+      home:HomeScreen(),
       routes: {
         "sign_in_page":(context)=>SignInScreen(),
         "sign_up_screen":(context)=>SignUpScreen(),

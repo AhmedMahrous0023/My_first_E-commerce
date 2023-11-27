@@ -1,6 +1,6 @@
-import 'package:first_ecommerce/Components/my_button.dart';
-import 'package:first_ecommerce/Components/template_input.dart';
-import 'package:first_ecommerce/Components/tile_image.dart';
+import 'package:first_ecommerce/components/my_button.dart';
+import 'package:first_ecommerce/components/template_input.dart';
+import 'package:first_ecommerce/components/tile_image.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 

@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 
 class TemplateInput extends StatelessWidget {
-  final String text;
+  final String text ;
   final String hintText;
-  final String prefixText;
+  final String prefixText ;
   final bool obscureText ;
   TextEditingController controller ;
 
    TemplateInput(
       {super.key,
-      required this.text,
+       required this.text,
+       required this.prefixText,
       required this.hintText,
-      required this.prefixText,
       required this.obscureText,
       required this.controller});
 
@@ -47,7 +47,7 @@ class TemplateInput extends StatelessWidget {
                       BorderSide(color: Colors.white, style: BorderStyle.none)),
               hintText: hintText,
               hintStyle: TextStyle(color: Colors.grey),
-              prefix: Text(prefixText),
+              prefix:Text(prefixText),
             ),
           ),
         ),
